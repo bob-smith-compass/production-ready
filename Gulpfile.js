@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var liveServer = require('gulp-live-server');
 var browserSync = require('browser-sync');
 var browserify = require('browserify');
+var source = require('vinyl-source-stream');
 var reactify = require('reactify');
 
 
@@ -22,13 +23,13 @@ gulp.task('server', function(){
 gulp.task('browserify', function(){
     return browserify({
         // pass starting point
-        entries: 'app/main.js',
+        entries: 'server/main.js',
         debug: true
 
     })
-    .transfer(reactify) // will change all jsx to js 
+    .transform(reactify) // will change all jsx to js 
     .bundle()
-    .pipe(source('server/main.js'))
+    .pipe(source('app.js'))
     .pipe(gulp.dest('./.temp'))
 
 })
