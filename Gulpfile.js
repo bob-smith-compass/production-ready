@@ -20,7 +20,14 @@ gulp.task('server', function(){
 })
 /** Old way */
 gulp.task('browserify', function(){
-    return browsefify();
+    return browsefify({
+        // pass starting point
+        entries: 'app/main.js',
+        debug: true
+
+    })
+    .transfor(reactify) // will change all jsx to js 
+    .bundle()
 
 })
 gulp.task('default', function(){
