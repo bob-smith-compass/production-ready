@@ -1,6 +1,9 @@
 var gulp = require('gulp');
 var liveServer = require('gulp-live-server');
 var browserSync = require('browser-sync');
+var browserify = require('browserify');
+var reactify = require('reactify');
+
 
 
 gulp.task('live-server', function(){
@@ -16,6 +19,10 @@ gulp.task('server', function(){
     
 })
 /** Old way */
+gulp.task('browserify', function(){
+    return browsefify();
+
+})
 gulp.task('default', function(){
 
 })
