@@ -32,3 +32,5 @@ Combines task functions and/or composed operations into larger operations that w
 
 # React
 `sudo npm i -S react`
+
+`bower install --save react` you will see later why both bower install and npm install react
