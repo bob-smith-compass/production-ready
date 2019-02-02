@@ -12,10 +12,12 @@
   "dependencies": {
     "express": "^4.16.4",
     "react": "^16.7.0",
-    "react-tools": "^0.13.3"
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
     "gulp": "^4.0.0",
     "gulp-live-server": "0.0.31"
   }

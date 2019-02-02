@@ -40,3 +40,11 @@ Combines task functions and/or composed operations into larger operations that w
 
 # JSX
 User browserify to compile JSX and require one jsx file from another
+
+## browserify
+`npm i -g browserify`
+`npm i -D browserify` also add local browserify
+[http://browserify.org/](http://browserify.org/)
+
+## reactify
+`sudo npm i -S reactify`
