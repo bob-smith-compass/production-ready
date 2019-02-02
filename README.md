@@ -34,3 +34,6 @@ Combines task functions and/or composed operations into larger operations that w
 `sudo npm i -S react`
 
 `bower install --save react` you will see later why both bower install and npm install react
+
+### React tools ( perhaps old )
+`sudo npm install -g react-tools` - will give us jsx command line tool
