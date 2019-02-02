@@ -20,15 +20,15 @@ gulp.task('server', function(){
 })
 /** Old way */
 gulp.task('browserify', function(){
-    return browsefify({
+    return browserify({
         // pass starting point
         entries: 'app/main.js',
         debug: true
 
     })
-    .transfor(reactify) // will change all jsx to js 
+    .transfer(reactify) // will change all jsx to js 
     .bundle()
-    .pipe(source('app.js'))
+    .pipe(source('server/main.js'))
     .pipe(gulp.dest('./.temp'))
 
 })
