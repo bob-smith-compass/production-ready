@@ -37,3 +37,6 @@ Combines task functions and/or composed operations into larger operations that w
 
 ### React tools ( perhaps old )
 `sudo npm install -g react-tools` - will give us jsx command line tool
+
+# JSX
+User browserify to compile JSX and require one jsx file from another
