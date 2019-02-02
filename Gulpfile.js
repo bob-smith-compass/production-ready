@@ -28,6 +28,8 @@ gulp.task('browserify', function(){
     })
     .transfor(reactify) // will change all jsx to js 
     .bundle()
+    .pipe(source('app.js'))
+    .pipe(gulp.dest('./.temp'))
 
 })
 gulp.task('default', function(){
