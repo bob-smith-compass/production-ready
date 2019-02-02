@@ -20,6 +20,7 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
     // res.sendFile('./../app/index.html'); // path must be absolute
 })
+.use(express.static(__dirname + '/../app')) // Serve static contents
 .listen(port);
 
 
