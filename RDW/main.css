@@ -1,4 +1,5 @@
 .span1 {
+    width: 30%;
     min-height: 400px;
     min-width: 70px;
     border: solid 1px red;
@@ -7,14 +8,14 @@
 
 }
 .span2 {
-    width: 30%;
+    width: 40%;
     min-width: 60px;
     border: solid 2px green;
     background-color: lightgreen;
 
 }
 .span3 {
-    width: 30%;
+    width: 50%;
     min-width: 50px;
     border: solid 3px blue;
     background-color: lightblue;
@@ -27,6 +28,9 @@ span {
     width: auto;
     position: absolute; 
     opacity: .5;
+    text-align: center;
+    color: darkred;
+    font-weight: bolder;
 
 }
 .container {
