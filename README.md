@@ -60,3 +60,4 @@ CSS Grid Layout excels at dividing a page into major regions or defining the rel
 
 Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they actually overlap and layer, similar to CSS positioned elements.
 [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+[See here for codepen](https://codepen.io/bob-smith-compass/pen/gqRLKm?&editable=true)
