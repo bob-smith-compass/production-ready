@@ -37,6 +37,8 @@ span {
     width: 80%;
     min-width: 100px;
     min-height: 100px;
+    /* align-content: center; */
+    text-align: center;
 }
 div {
     border: solid 1px red;
