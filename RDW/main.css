@@ -1,0 +1,21 @@
+.span1 {
+    width: 30%;
+}
+.span2 {
+    width: 30%;
+}
+.span3 {
+    width: 30%;
+}
+span {
+    border: solid 1px gray;
+    padding: 10px;
+    background-color: lightyellow;
+}
+.container {
+    /* width: 80%; */
+    min-width: 100px;
+}
+div {
+    border: solid 1px red;
+}
