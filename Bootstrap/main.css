@@ -1,7 +1,16 @@
 
+/*
+* For more details see
+* [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+*/
+
 /* 
 * Bootstrap customization
 */
 .tab-pane {
     margin-top: 30px;
+    border: solid 1px lightgray;
+    border-top: none;
+    padding: 5px;
+    /* border-block-end: 1em; */
 }
