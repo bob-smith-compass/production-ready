@@ -1,16 +1,31 @@
 .span1 {
     width: 30%;
+    min-height: 400px;
+    border: solid 1px red;
+    background-color: lightcoral;
+    position: absolute; 
+    /* Without position: absolute; min-height: 400px; will not take effect  */
+
 }
 .span2 {
     width: 30%;
+    min-width: 50px;
+    border: solid 1px green;
+    background-color: lightgreen;
+
 }
 .span3 {
     width: 30%;
+    min-width: 50px;
+    border: solid 1px blue;
+    background-color: lightblue;
+
 }
 span {
     border: solid 1px gray;
     padding: 10px;
     background-color: lightyellow;
+    width: auto;
 }
 .container {
     /* width: 80%; */
