@@ -56,4 +56,7 @@ User browserify to compile JSX and require one jsx file from another
 [https://getbootstrap.com/docs/4.2/getting-started/theming/](https://getbootstrap.com/docs/4.2/getting-started/theming/)
 
 ## CSS Grid
+CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
+
+Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they actually overlap and layer, similar to CSS positioned elements.
 [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
