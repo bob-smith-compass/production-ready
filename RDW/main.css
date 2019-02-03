@@ -47,3 +47,10 @@ span {
 div {
     border: solid 1px red;
 }
+
+/* 
+* Bootstrap customization
+*/
+.tab-pane {
+    margin-top: 10px;
+}
