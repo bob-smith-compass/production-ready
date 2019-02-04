@@ -1,0 +1,14 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #A {
+    height: 600px;
+    background-color: pink;
+  }
+  
+  #D {
+    height: 600px;
+    background-color: yellow;
+  }
