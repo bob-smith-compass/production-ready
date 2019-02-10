@@ -16,5 +16,8 @@ export PATH=<mongodb-install-directory>/bin:$PATH
 <!-- Create the data directory -->
 `sudo mkdir -p /data/db`
 
+### Give Read/Write access to current user to data directory
+`sudo chmod -R 777 /data/db`
+
 
 <!-- ## MongoDB Charts -->
