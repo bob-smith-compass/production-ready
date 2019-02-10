@@ -11,4 +11,10 @@
 export PATH=<mongodb-install-directory>/bin:$PATH
 `export PATH=mongodb-osx-x86_64-4.0.6/bin:$PATH`
 
-## MongoDB Charts
+## data directory
+
+<!-- Create the data directory -->
+`sudo mkdir -p /data/db`
+
+
+<!-- ## MongoDB Charts -->
