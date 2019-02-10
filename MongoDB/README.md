@@ -39,3 +39,21 @@ OR WHERE INSTALLED
 `mongo`
 OR
 `~/Downloads/mongodb-osx-x86_64-4.0.6/bin/mongo`
+
+## Connect to Database = use
+```
+> db.liki.find()
+> ;
+> db.collection.find()
+> db
+test
+> use liki
+switched to db liki
+> db.liki.find()
+> db.liko.find().pretty()
+> use local
+switched to db local
+> db.liki.find()
+{ "_id" : ObjectId("5c601190af188cb358ccce1c"), "fname" : "David", "lname" : "Shams", "title" : "Solution Architect" }
+>
+```
