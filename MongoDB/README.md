@@ -41,8 +41,10 @@ OR
 `~/Downloads/mongodb-osx-x86_64-4.0.6/bin/mongo`
 
 ## Connect to Database = use
-```
-> db.liki.find()
+
+### The mongo Shell¶ https://docs.mongodb.com/manual/mongo/
+
+```> db.liki.find()
 > ;
 > db.collection.find()
 > db
