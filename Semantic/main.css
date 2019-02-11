@@ -1,3 +1,10 @@
 .grid {
     position: relative;
 }
+#search {
+    width: 200px;
+}
+#search:focus {
+    width: 400px;
+    transition: width .75s ease;
+}
