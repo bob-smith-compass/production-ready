@@ -31,5 +31,5 @@ function startGame() {
 }
 
 startGame()
-.then(()=> alert('You win!'))
-.catch(() => alert('You lost!'));
+.then(()=> console.log('You win!'))
+.catch(() => console.log('You lost!'));
