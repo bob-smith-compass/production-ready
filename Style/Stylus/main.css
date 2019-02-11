@@ -1,0 +1,14 @@
+div {
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1) */
+    /* transition: blue .5s ease; */
+    /* background-color: red; */
+    min-height: 200px;
+}
+div {
+    transition: background-color 0.75s ease;
+    background-color: red;
+  }
+  div:hover {
+    background-color: green;
+  }
+  
