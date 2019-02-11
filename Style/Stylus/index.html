@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="./main.css">
     <title>Stlylus</title>
 </head>
-<body>
-    
+
+<body class="ui container">
+
+
+
     <div id="transition">
         Transition
     </div>
-    <button onclick="handleClick()">Transition</button>
+    <button class="ui button primary" onclick="handleClick()">Transition</button>
+
+
+
+    <!-- <div class="ui card"> -->
+        <!-- <div class="ui card content"> -->
+            <nav>
+                <a href="#1">1</a>
+                <a href="#2">2</a>
+                <a href="#3">3</a>
+            </nav>
+
+            <div class="scrolling-box">
+                <section id="1">This is the first section</section>
+                <section id="2">This is the second section</section>
+                <section id="3">This is the third section</section>
+            </div>
+
+        <!-- </div> -->
+    <!-- </div> -->
+
     <script>
         function handleClick() {
             document.getElementById('transition')
-            .style = "background: #ffe7e8;"
+                .style = "background: #ffe7e8;"
         }
     </script>
 </body>
+
 </html>
