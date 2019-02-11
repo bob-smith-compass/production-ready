@@ -6,9 +6,11 @@ div {
 }
 div {
     transition: background-color 0.75s ease;
+    transition: min-height 0.75s ease;
     background-color: red;
   }
   div:hover {
     background-color: green;
+    min-height: 100px;
   }
   
