@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-auto-columns: 30% 30% 40%;
+    grid-auto-flow: column;
+}
+div {
+    border: solid 1px gray;
+    background: lightcoral;
+    opacity: .7;
+    min-height: 50px;
+
+}
