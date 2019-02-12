@@ -3,6 +3,9 @@ body {
     font-family: 'Felipa';
     display: grid;
     grid-template-columns: 12% auto;
+    grid-template-areas: 
+    "sidebar right"
+    "footer footer";
 }
 section {
     display: grid;
