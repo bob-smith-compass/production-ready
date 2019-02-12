@@ -9,10 +9,13 @@ body {
   grid-template-areas:
     "sidebar right"
     "footer footer";
+    grid-gap: 10px 10px;
+    
 }
 .sidebar {
   grid-area: sidebar;
   background-color: gray;
+  height: 100%;
 }
 .main {
   grid-area: right;
