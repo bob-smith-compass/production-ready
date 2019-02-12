@@ -28,7 +28,17 @@ div.toolbar {
     min-height: 50px;
     background: blue;
 }
+div.footer {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 50px;
+    background: black;
+}
                                 
 div.toolbar > * {
     color: white;
+}
+div.footer > * {
+    color: lightgray;
 }
