@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 div.square {
     /* min-width: .5vh; */
     /* min-height:  20vh; */
@@ -25,14 +28,15 @@ div.toolbar {
     position: abosolute;
     margin-top: 0;
     min-width: 100%;
-    min-height: 50px;
+    min-height: 100px;
     background: blue;
+    margin: 0;
 }
 div.footer {
     position: fixed;
     bottom: 0;
     min-width: 100%;
-    min-height: 50px;
+    min-height: 200px;
     background: black;
 }
                                 
