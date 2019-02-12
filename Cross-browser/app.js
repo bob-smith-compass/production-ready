@@ -3,6 +3,6 @@ function start() {
     console.log('DOM Loaded');
 }
 
-document.querySelectorAll('body').addEventListener('click', function() {
-    console.log('Clicked!');
-});
+// document.querySelectorAll('body').addEventListener('click', function() {
+//     console.log('Clicked!');
+// });

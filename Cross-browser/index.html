@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <link rel="stylesheet" href="./main.css">
     <title>Cross browser</title>
 </head>
-<body>
+
+<body onclick="onBody()">
     <div class="toolbar">
         <a href="https://caniuse.com/#comparison">https://caniuse.com/#comparison</a>
     </div>
@@ -23,8 +25,19 @@
     </div>
 
     <div class="main">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate nesciunt quia ducimus dolorum qui dolor, repudiandae beatae magnam quam recusandae enim possimus a harum esse quisquam maxime non asperiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate nesciunt quia ducimus dolorum qui
+        dolor, repudiandae beatae magnam quam recusandae enim possimus a harum esse quisquam maxime non asperiores.
     </div>
     <script src="app.js"></script>
+    <script>
+
+        document.querySelectorAll('body').addEventListener('click', function () {
+            console.log('Clicked!');
+        });
+        function onBody() {
+            console.log('Clicked!');
+        }
+    </script>
 </body>
+
 </html>
