@@ -1,13 +1,30 @@
 body {
     display: grid;
+    /* grid-auto-columns: 30% 30% 40%; */
+    /* grid-auto-flow: column; */
+    grid-gap: 10px 20px;
+    /* grid-auto-columns: 30%; */
+}
+.main {
+    display: grid;
     grid-auto-columns: 30% 30% 40%;
     grid-auto-flow: column;
     grid-gap: 10px 20px;
+    grid-auto-columns: 30%;
 }
-div {
+.item {
     border: solid 1px gray;
     background: lightcoral;
     opacity: .7;
     min-height: 50px;
+    text-align: center;
 
+}
+.col-5 {
+    display: grid;
+    border: solid 1px red;
+    /* grid-template-rows: 50px auto; */
+    /* grid-template-columns: 50px auto; */
+    grid-template-columns: repeat(5, auto);
+    /* grid-auto-flow: column; */
 }

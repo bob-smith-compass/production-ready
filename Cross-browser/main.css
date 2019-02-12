@@ -1,0 +1,34 @@
+div.square {
+    /* min-width: .5vh; */
+    /* min-height:  20vh; */
+    min-height: 100px;
+    max-width: 100px;
+    border: solid 1px gray;
+    background-color: brown;
+    opacity: .7;
+}
+div.oravlap {
+    min-height: 100px;
+    max-width: 100px;
+    border: solid 1px gray;
+    background-color: yellow;
+    opacity: .7;
+
+    position: absolute;
+    /* margin-right: 20px; */
+    margin-top: -20px;
+}
+h1 {
+    font-size: 20vh;
+}
+div.toolbar {
+    position: abosolute;
+    margin-top: 0;
+    min-width: 100%;
+    min-height: 50px;
+    background: blue;
+}
+                                
+div.toolbar > * {
+    color: white;
+}
