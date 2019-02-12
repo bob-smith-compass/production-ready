@@ -1,29 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Felipa');
+@import url("https://fonts.googleapis.com/css?family=Felipa");
+body, html {
+    height: 100%;
+}
 body {
-    font-family: 'Felipa';
-    display: grid;
-    grid-template-columns: 12% auto;
-    grid-template-areas: 
+  font-family: "Felipa";
+  display: grid;
+  grid-template-columns: 12% auto;
+  grid-template-areas:
     "sidebar right"
     "footer footer";
 }
+.sidebar {
+  grid-area: sidebar;
+  background-color: gray;
+}
+.main {
+  grid-area: right;
+  grid-template-rows: 100px fit-content(30%);
+}
+.footer {
+  background: black;
+  color: lightgray;
+  grid-template-rows: 100px 30%;
+}
 section {
-    display: grid;
-
+  display: grid;
 }
 header {
-    display: grid;
-    background-color: blue;
-    color: white;
-    grid-template-rows: 100px 30%;
+  display: grid;
+  background-color: blue;
+  color: white;
+  grid-template-rows: 100px 30%;
 }
 li > a {
-
-    color: white;
-    text-decoration: none;
-    display: grid;
+  color: white;
+  text-decoration: none;
+  display: grid;
 }
 ul {
-    /* text-decoration-style: none; */
-    list-style-type: none;
+  /* text-decoration-style: none; */
+  list-style-type: none;
 }
