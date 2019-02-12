@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Felipa');
+body {
+    font-family: 'Felipa'
+}
+section {
+    display: grid;
+
+}
+header {
+    display: grid;
+    background-color: blue;
+    color: white;
+}
+li > a {
+
+    color: white;
+    text-decoration: none;
+}
+ul {
+    /* text-decoration-style: none; */
+    list-style-type: none;
+}
