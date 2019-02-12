@@ -28,3 +28,6 @@ body {
     grid-template-columns: repeat(5, auto);
     /* grid-auto-flow: column; */
 }
+body:hover {
+    background: lightyellow;
+}
