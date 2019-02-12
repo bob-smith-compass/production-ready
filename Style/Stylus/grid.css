@@ -44,3 +44,6 @@ ul {
   /* text-decoration-style: none; */
   list-style-type: none;
 }
+.col-5 {
+    grid-template-columns: repeat(5, auto)
+}
