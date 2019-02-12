@@ -25,7 +25,8 @@ h1 {
     font-size: 20vh;
 }
 div.toolbar {
-    position: abosolute;
+    /* position: abosolute; */
+    position: fixed;
     margin-top: 0;
     min-width: 100%;
     min-height: 100px;
@@ -45,4 +46,8 @@ div.toolbar > * {
 }
 div.footer > * {
     color: lightgray;
+}
+.main {
+    /* min-height: 150vh; */
+    min-height: 1000px;
 }
