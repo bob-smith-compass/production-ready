@@ -2,6 +2,7 @@ body {
     display: grid;
     grid-auto-columns: 30% 30% 40%;
     grid-auto-flow: column;
+    grid-gap: 10px 20px;
 }
 div {
     border: solid 1px gray;
