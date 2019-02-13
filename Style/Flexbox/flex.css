@@ -7,7 +7,10 @@ html, body {
     /* flex-direction: row; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    /* width: 600px; */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
 }
 ul li {
     height: 150px;
