@@ -129,4 +129,32 @@ ul.mirror li {
   text-decoration-style: none;
 }
 
+ul.social li {
+  list-style-type: none;
+}
+
+ul.social li a {
+  display: block;
+  margin: 0 auto;
+  background-image: url("./socialSprites.png");
+  height: 45px;
+  width: 45px;
+}
+
+ul.social li.facebook a {
+  background-position: -45px;
+}
+
+ul.social li.twitter a {
+  background-position: -90px;
+}
+
+ul.social li.youtube a {
+  background-position: -135px;
+}
+
+ul.social li.googleplus a {
+  background-position: -180px;
+}
+
 /*# sourceMappingURL=main.css.map */
