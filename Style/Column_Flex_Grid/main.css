@@ -22,10 +22,13 @@ main ul li {
   min-width: 50px;
   min-height: 50px;
   background: lightcoral;
-  background-image: url('./SpritePractice.png');
-  background-position: 0 0;
+  background-image: url("./SpritePractice.png");
   opacity: 0.7;
   border: solid 1px gray;
+}
+
+ul li.blue {
+  background-position: 0 150px;
 }
 
 /*# sourceMappingURL=main.css.map */
