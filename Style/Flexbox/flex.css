@@ -20,7 +20,8 @@ html, body {
     /* align-items: flex-start; */
     /* align-items: flex-end; */
     /* align-items: center; */
-    align-items: stretch;
+    /* align-items: stretch; */
+    align-items: baseline;
 }
 ul li {
     /* height: 150px; */
