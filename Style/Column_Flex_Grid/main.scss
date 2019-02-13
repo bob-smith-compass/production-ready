@@ -45,3 +45,23 @@ main {
   ul li:hover {
       background-position: -100px -50px;
   }
+//   Mobile
+.plum {
+    color: plum;
+}
+
+// Tablet
+.purple {
+    color: purple;
+}
+
+// Desktop
+.orage {
+    color: orange;
+}
+@for $i from 1 through 12 {
+    $y: $i*10%;
+    .photo-#{$i} { width: $y; float: right;}
+}
+// .photowidth:round((960/3)-(960*.02))*1px;
+

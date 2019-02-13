@@ -41,4 +41,76 @@ ul li:hover {
   background-position: -100px -50px;
 }
 
+.plum {
+  color: plum;
+}
+
+.purple {
+  color: purple;
+}
+
+.orage {
+  color: orange;
+}
+
+.photo-1 {
+  width: 10%;
+  float: right;
+}
+
+.photo-2 {
+  width: 20%;
+  float: right;
+}
+
+.photo-3 {
+  width: 30%;
+  float: right;
+}
+
+.photo-4 {
+  width: 40%;
+  float: right;
+}
+
+.photo-5 {
+  width: 50%;
+  float: right;
+}
+
+.photo-6 {
+  width: 60%;
+  float: right;
+}
+
+.photo-7 {
+  width: 70%;
+  float: right;
+}
+
+.photo-8 {
+  width: 80%;
+  float: right;
+}
+
+.photo-9 {
+  width: 90%;
+  float: right;
+}
+
+.photo-10 {
+  width: 100%;
+  float: right;
+}
+
+.photo-11 {
+  width: 110%;
+  float: right;
+}
+
+.photo-12 {
+  width: 120%;
+  float: right;
+}
+
 /*# sourceMappingURL=main.css.map */
