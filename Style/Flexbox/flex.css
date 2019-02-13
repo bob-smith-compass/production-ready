@@ -17,7 +17,8 @@ html, body {
     /* justify-content: space-between; */
     /* justify-content: space-around; */
     height: 300px;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: flex-end;
 }
 ul li {
     height: 150px;
