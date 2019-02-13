@@ -37,4 +37,8 @@ ul li.blue {
   text-align: center;
 }
 
+ul li:hover {
+  background-position: -100px -50px;
+}
+
 /*# sourceMappingURL=main.css.map */
