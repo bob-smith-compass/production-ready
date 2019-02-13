@@ -1,0 +1,16 @@
+main {
+  max-width: 60rem;
+  min-height: 20rem;
+  padding: 1rem 2%;
+}
+main h1 {
+  font-size: 2rem;
+  margin: 1.5rem 0 0.2rem 0;
+  color: #0a0aff;
+}
+main div.parent {
+  display: grid;
+  grid-template-columns: 250px auto;
+}
+
+/*# sourceMappingURL=main.css.map */
