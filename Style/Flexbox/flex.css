@@ -23,7 +23,7 @@ html, body {
     align-items: stretch;
 }
 ul li {
-    height: 150px;
+    /* height: 150px; */
     padding-top: 50px;
     color: white;
     font-weight: bold;
