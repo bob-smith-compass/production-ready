@@ -15,11 +15,12 @@ ul li {
     flex-grow: 1;
 }
 ul li:first-child {
+    order: 1;
     background-color: red;
     opacity: .7;
 }
 ul li:nth-child(2) {
-    order: 2;
+
     background-color: green;
     opacity: .7;
 }
