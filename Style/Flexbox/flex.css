@@ -4,7 +4,7 @@ html, body {
 #flex-container {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 ul li {
     height: 150px;
