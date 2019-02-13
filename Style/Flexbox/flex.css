@@ -3,6 +3,7 @@ html, body {
 }
 #flex-container {
     list-style-type: none;
+    display: flex;
 }
 ul li {
     height: 150px;
