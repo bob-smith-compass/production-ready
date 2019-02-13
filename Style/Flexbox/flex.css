@@ -11,6 +11,8 @@ html, body {
     /* width: 600px; */
     /* flex-wrap: wrap; */
     flex-wrap: wrap-reverse;
+    /* justify-content: flex-start; */
+    justify-content: flex-end;
 }
 ul li {
     height: 150px;
