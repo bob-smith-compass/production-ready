@@ -22,6 +22,8 @@ main ul li {
   min-width: 50px;
   min-height: 50px;
   background: lightcoral;
+  background-image: url('./SpritePractice.png');
+  background-position: 0 0;
   opacity: 0.7;
   border: solid 1px gray;
 }
