@@ -18,7 +18,9 @@ html, body {
     /* justify-content: space-around; */
     height: 300px;
     /* align-items: flex-start; */
-    align-items: flex-end;
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: stretch;
 }
 ul li {
     height: 150px;
