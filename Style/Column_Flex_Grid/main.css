@@ -11,6 +11,17 @@ main h1 {
 main div.parent {
   display: grid;
   grid-template-columns: 250px auto;
+  border: solid 1px gray;
+  grid-template-columns: 100px auto;
+}
+main ul {
+  list-style-type: none;
+}
+main ul li {
+  min-width: 50px;
+  min-height: 50px;
+  background: lightcoral;
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=main.css.map */
