@@ -19,6 +19,7 @@ ul li:first-child {
     opacity: .7;
 }
 ul li:nth-child(2) {
+    order: 2;
     background-color: green;
     opacity: .7;
 }
