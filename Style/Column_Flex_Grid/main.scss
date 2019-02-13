@@ -33,11 +33,12 @@ main {
 }
 
   ul li.blue {
-    min-width: 50px;
+    max-width: 50px;
     min-height: 50px;
     background: lightcoral;
     background-image: url('./SpritePractice.png');
     opacity: .7;
-    border: solid 1px gray;
+    // border: solid 1px gray;
     background-position: 0 -100px;
+    text-align: center;
   }
