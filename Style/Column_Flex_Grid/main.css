@@ -54,63 +54,79 @@ ul li:hover {
 }
 
 .photo-1 {
-  width: 10%;
+  width: 5%;
   float: right;
+  opacity: 0.2;
 }
 
 .photo-2 {
-  width: 20%;
+  width: 10%;
   float: right;
+  opacity: 0.4;
 }
 
 .photo-3 {
-  width: 30%;
+  width: 15%;
   float: right;
+  opacity: 0.6;
 }
 
 .photo-4 {
-  width: 40%;
+  width: 20%;
   float: right;
+  opacity: 0.8;
 }
 
 .photo-5 {
-  width: 50%;
+  width: 25%;
   float: right;
+  opacity: 1;
 }
 
 .photo-6 {
-  width: 60%;
+  width: 30%;
   float: right;
+  opacity: 1.2;
 }
 
 .photo-7 {
-  width: 70%;
+  width: 35%;
   float: right;
+  opacity: 1.4;
 }
 
 .photo-8 {
-  width: 80%;
+  width: 40%;
   float: right;
+  opacity: 1.6;
 }
 
 .photo-9 {
-  width: 90%;
+  width: 45%;
   float: right;
+  opacity: 1.8;
 }
 
 .photo-10 {
-  width: 100%;
+  width: 50%;
   float: right;
+  opacity: 2;
 }
 
 .photo-11 {
-  width: 110%;
+  width: 55%;
   float: right;
+  opacity: 2.2;
 }
 
 .photo-12 {
-  width: 120%;
+  width: 60%;
   float: right;
+  opacity: 2.4;
+}
+
+ul.mirror li {
+  text-decoration-style: none;
 }
 
 /*# sourceMappingURL=main.css.map */
