@@ -196,6 +196,8 @@ li {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
+  grid-column-gap: 2%;
+  grid-row-gap: 0.5rem;
 }
 
 /*# sourceMappingURL=tester.css.map */
