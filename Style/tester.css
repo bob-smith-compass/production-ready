@@ -1,3 +1,7 @@
+.cotainer {
+  display: flex;
+}
+
 li {
   widows: 45px;
   height: 45px;
@@ -5,6 +9,9 @@ li {
   opacity: 0.7;
   max-width: 45px;
   background: url("./socialSprites.png");
+  flex-grow: 1;
+  flex-direction: row;
+  float: left;
 }
 
 ul {
