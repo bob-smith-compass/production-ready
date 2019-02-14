@@ -2,7 +2,14 @@ li {
     min-width: 50px;
     min-height: 50px;
     border: solid 1px gray;
+    opacity: 0.7;
+    max-width: 50px;
+    background: url('./socialSprites.png');
 }
 ul {
     list-style-type: none;
+}
+@for $i from 1 through 6 {
+    $y: 45 * $i * 1px;
+    .photo-#{$i} {background-position: $y -45px}
 }

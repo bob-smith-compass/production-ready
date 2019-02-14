@@ -2,10 +2,37 @@ li {
   min-width: 50px;
   min-height: 50px;
   border: solid 1px gray;
+  opacity: 0.7;
+  max-width: 50px;
+  background: url("./socialSprites.png");
 }
 
 ul {
   list-style-type: none;
+}
+
+.photo-1 {
+  background-position: 45px -45px;
+}
+
+.photo-2 {
+  background-position: 90px -45px;
+}
+
+.photo-3 {
+  background-position: 135px -45px;
+}
+
+.photo-4 {
+  background-position: 180px -45px;
+}
+
+.photo-5 {
+  background-position: 225px -45px;
+}
+
+.photo-6 {
+  background-position: 270px -45px;
 }
 
 /*# sourceMappingURL=tester.css.map */
