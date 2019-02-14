@@ -126,5 +126,6 @@ li {
     font-size: 2.5em;
     color: red;
     font-weight: bold;
-    grid-template-columns: 250px auto;
+    // grid-template-columns: 250px auto;
+    grid-template-columns: 1fr 2fr;
 }
