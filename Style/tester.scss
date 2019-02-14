@@ -85,6 +85,7 @@ div.square {
 }
 .flex-container li:hover {
     transform: scale(1.05);
+    border: solid 2px red;
 }
 .flex-container li {
     flex-basis: 30%;
@@ -104,6 +105,7 @@ div.square {
     background: url('./socialSprites.png');
     background-color: yello;
     display: block;
+    transition: transform 0.3s ease-in-out;
 }
 li {
     @include limixin();
