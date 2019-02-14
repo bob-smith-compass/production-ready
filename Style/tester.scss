@@ -1,15 +1,17 @@
 li {
-    min-width: 50px;
-    min-height: 50px;
+    // min-width: 50px;
+    // min-height: 50px;
+    widows: 45px;
+    height: 45px;
     border: solid 1px gray;
     opacity: 0.7;
-    max-width: 50px;
+    max-width: 45px;
     background: url('./socialSprites.png');
 }
 ul {
     list-style-type: none;
 }
-@for $i from 1 through 6 {
-    $y: 45 * $i * 1px;
-    .photo-#{$i} {background-position: $y -45px}
+@for $i from 0 through 6 {
+    $y: -45 * $i * 1px;
+    .photo-#{$i} {background-position: $y $i* 0}
 }
