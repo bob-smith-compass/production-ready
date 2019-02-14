@@ -1,5 +1,5 @@
 .cotainer {
-    display: flex;
+    // display: flex;
 }
 li {
     // min-width: 50px;
@@ -10,9 +10,12 @@ li {
     opacity: 0.7;
     max-width: 45px;
     background: url('./socialSprites.png');
-    flex-grow: 1;
+    // flex-grow: 2;
     flex-direction: row;
-    float: left;
+    // float: left;
+    // width: 15%;
+    display: block;
+    margin: 0 auto; // zero top and botton auto left and right
 }
 ul {
     list-style-type: none;
@@ -20,4 +23,7 @@ ul {
 @for $i from 0 through 6 {
     $y: -45 * $i * 1px;
     .photo-#{$i} {background-position: $y $i* 0}
+}
+.row {
+    clear: both;
 }
