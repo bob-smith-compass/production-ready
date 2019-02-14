@@ -77,9 +77,6 @@ div.square {
 
 }
 
-li {
-   
-}
 @mixin limixin(){
     min-width: 50px;
     min-height: 50px;
@@ -90,4 +87,7 @@ li {
     background: url('./socialSprites.png');
     background-color: yello;
     display: block;
+}
+li {
+    @include limixin();
 }
