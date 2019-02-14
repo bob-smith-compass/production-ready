@@ -27,3 +27,40 @@ ul {
 .row {
     clear: both;
 }
+div.square {
+    border: solid 1px gray;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+}
+.lower {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background-color: lightcoral;
+    opacity: .7;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    background-color: yellow;
+}
+.middle {
+    margin-left: 50%;
+    // float: middle;
+    background-color: rebeccapurple;
+}
+// 12 column grid
+@for $i from 1 through 12 {
+    $w: ($i/12)*100%;
+    .small-#{$i} {width: $w; float: left;}  
+}
+.grid-12 > div {    
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+
+    border: solid 1px red;
+    background-color: gray;
+}
