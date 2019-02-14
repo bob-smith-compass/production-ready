@@ -1,4 +1,4 @@
-li {
+oldli {
   widows: 45px;
   height: 45px;
   border: solid 1px gray;
@@ -151,7 +151,7 @@ div.square {
 }
 
 .flex-container li {
-  flex-basis: 25%;
+  flex-basis: auto;
 }
 
 /*# sourceMappingURL=tester.css.map */
