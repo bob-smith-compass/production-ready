@@ -92,6 +92,33 @@ ul.social li.youtube a {
 ul.social li.googleplus a {
     background-position: (-45)*4px;
 }
-.star {
+.circle {
     clip-path: circle(50% at 50% 50%)
+}
+.circle-orange {
+    clip-path: circle(50% at 50% 50%);
+    background-color: orange;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+}
+.sm-circle {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    clip-path: circle(50px at 50px 50px);
+    border: solid 1px gray;
+    margin-left: 50px;
+    background-color: lightcyan;
+}
+div {
+    border: solid 1px gray;
+}
+.triangle {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    text-align: center;
 }
