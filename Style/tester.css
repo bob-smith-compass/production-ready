@@ -142,4 +142,8 @@ div.square {
   background-color: gray;
 }
 
+.star {
+  clip-path: circle(50% at 50% 50%);
+}
+
 /*# sourceMappingURL=tester.css.map */

@@ -158,4 +158,8 @@ ul.social li.googleplus a {
   background-position: -180px;
 }
 
+.star {
+  clip-path: circle(50% at 50% 50%);
+}
+
 /*# sourceMappingURL=main.css.map */

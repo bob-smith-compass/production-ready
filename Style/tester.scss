@@ -64,3 +64,6 @@ div.square {
     border: solid 1px red;
     background-color: gray;
 }
+.star {
+    clip-path: circle(50% at 50% 50%)
+}
