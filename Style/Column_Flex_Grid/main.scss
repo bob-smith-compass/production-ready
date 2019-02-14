@@ -76,18 +76,19 @@ ul.social li a {
     display: block;
     margin: 0 auto;
     background-image: url('./socialSprites.png');
-    height: 45px;
+    height: 90px;
     width: 45px;
+    min-height: 45px;
 }
 ul.social li.facebook a {
-    background-position: (-45) *1px;
+    background-position: (-45)*1px;
 }
 ul.social li.twitter a {
-    background-position: (-45) *2px;
+    background-position: (-45)*2px;
 }
 ul.social li.youtube a {
-    background-position: (-45) *3px;
+    background-position: (-45)*3px;
 }
 ul.social li.googleplus a {
-    background-position: (-45) *4px;
+    background-position: (-45)*4px;
 }

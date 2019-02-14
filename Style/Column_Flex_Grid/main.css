@@ -137,8 +137,9 @@ ul.social li a {
   display: block;
   margin: 0 auto;
   background-image: url("./socialSprites.png");
-  height: 45px;
+  height: 90px;
   width: 45px;
+  min-height: 45px;
 }
 
 ul.social li.facebook a {
