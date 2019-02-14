@@ -67,3 +67,11 @@ div.square {
 .star {
     clip-path: circle(50% at 50% 50%)
 }
+
+.flex-container {
+    display: flex;
+}
+.flex-container li {
+    flex-basis: 25%;
+
+}

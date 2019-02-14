@@ -122,3 +122,16 @@ div {
     min-height: 100px;
     text-align: center;
 }
+.figure {
+    float: left;
+    max-width: 150px;
+    max-height: 150px;
+}
+.wrap {
+    margin-left: 2sem;
+    max-width: 200px;
+    shape-outside: circle(100% at 0 0);
+}
+.flex-container {
+    display: flex;
+}
