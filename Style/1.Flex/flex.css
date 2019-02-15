@@ -1,13 +1,20 @@
-div {
+div.item {
     background-color: lightcoral;
+    opacity: .7;
     border: solid 1px gray;
 }
 .container {
+    /** General */ 
+    min-height: 100px;
+    border: solid 1px gray;
+
+    /** Flex */
     display: flex;
     /* justify-content: flex-start; */
     justify-content: space-between;
-    min-height: 100px;
+    align-items: center;
 }
 .item {
     align-items: stretch;
+    max-width: 50px;
 }
