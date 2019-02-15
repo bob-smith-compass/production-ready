@@ -1,0 +1,3 @@
+#form input[type=textbox], #form textarea {
+    border: solid 1px red;
+}
