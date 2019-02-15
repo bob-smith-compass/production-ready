@@ -1,7 +1,9 @@
-var less = require('less');
-less.render(lessContnet, function(e, css) {
-    console.log(css)
-});
+if(!window) { /** run in node only */
+    var less = require('less');
+    less.render(lessContnet, function(e, css) {
+        console.log(css)
+    });
+}
 
 (function f(){
     console.log(`Working`);
