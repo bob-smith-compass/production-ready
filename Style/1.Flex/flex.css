@@ -29,6 +29,21 @@ div.item {
     align-items: center;
     justify-content: center;
 }
-.bottom {
+.baseline {
     align-self: baseline;
+}
+.auto {
+    align-self: auto;
+}
+.top {
+    align-self: flex-end;
+}
+.stretch {
+    align-self: stretch;
+}
+.start {
+    align-self: flex-start;
+}
+.bottom {
+    align-self: flex-end;
 }
