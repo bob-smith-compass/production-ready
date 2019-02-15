@@ -47,3 +47,7 @@ div.item {
 .bottom {
     align-self: flex-end;
 }
+.item .container {
+    padding: 25px;
+    border: solid 1px red;
+}
