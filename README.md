@@ -99,3 +99,6 @@ client.connect(function(err) {
 ## LESS
 `npm i -S less`
 `less.render(lessContnet, function(e, css) {`
+
+    justify-content: center;
+relative to MAIN AXIS - X axis

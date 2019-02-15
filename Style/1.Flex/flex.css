@@ -16,6 +16,19 @@ div.item {
     justify-content: center;
 }
 .item {
+    /* General */
+    min-width: 50px;
+    min-height: 50px;
+
+    /* Flex */
     align-items: stretch;
     max-width: 50px;
+
+    /* Flex-in-flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom {
+    align-self: baseline;
 }
