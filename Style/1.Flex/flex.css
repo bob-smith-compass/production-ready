@@ -8,5 +8,5 @@ div {
     justify-content: space-between;
 }
 .item {
-
+    align-items: stretch;
 }
