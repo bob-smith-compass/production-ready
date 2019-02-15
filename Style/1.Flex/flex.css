@@ -13,7 +13,9 @@ div.item {
     /* justify-content: flex-start; */
     justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-wrap: wrp;
+    flex: 1 1 160px;
 }
 .item {
     /* General */
@@ -28,6 +30,7 @@ div.item {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 .baseline {
     align-self: baseline;
@@ -48,7 +51,7 @@ div.item {
     align-self: flex-end;
 }
 .item .container {
-    padding: 5px;
+    /* padding: 5px; */
     border: solid 1px red;
 }
 div.item div.container div {
