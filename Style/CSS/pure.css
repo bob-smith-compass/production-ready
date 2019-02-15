@@ -1,4 +1,4 @@
-@import './init.css';
+@import './init.css'; /* What we really want is to cache this import */
 
 #form input[type=textbox], #form textarea {
     border: solid 1px red;

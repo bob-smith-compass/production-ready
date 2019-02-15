@@ -1,0 +1,41 @@
+@with: 100px;
+@height: @with + 10px;
+@bodyBackground: pink;
+
+body {
+    background-color: @bodyBackground;
+}
+#header {
+    width: @with;
+    height: @height;
+    border: solid 1px red;
+    // display: inline;
+}
+.ti-tac {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 400px;
+
+}
+.item {
+    border: solid 1px gray;
+    padding: 20px;
+
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+}
+.box div {
+    width: 100px;
+    height: 100px;
+    border: solid 1px gray;
+    padding: 20px;
+  }
+  
+
+  
