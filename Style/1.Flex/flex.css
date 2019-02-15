@@ -6,6 +6,7 @@ div {
     display: flex;
     /* justify-content: flex-start; */
     justify-content: space-between;
+    min-height: 100px;
 }
 .item {
     align-items: stretch;
