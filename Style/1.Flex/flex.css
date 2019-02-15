@@ -23,6 +23,7 @@ div.item {
     /* Flex */
     align-items: stretch;
     max-width: 50px;
+    /* max-width: 50px; */
 
     /* Flex-in-flex */
     display: flex;
