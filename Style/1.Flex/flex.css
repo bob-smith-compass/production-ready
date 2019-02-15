@@ -22,7 +22,6 @@ div.item {
 
     /* Flex */
     align-items: stretch;
-    max-width: 50px;
     /* max-width: 50px; */
 
     /* Flex-in-flex */
@@ -49,6 +48,10 @@ div.item {
     align-self: flex-end;
 }
 .item .container {
-    padding: 25px;
+    padding: 5px;
     border: solid 1px red;
+}
+div.item div.container div {
+    border: solid 1px blue;
+
 }
