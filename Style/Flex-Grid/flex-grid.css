@@ -1,0 +1,61 @@
+div.container > div {
+    border: solid 1px red;
+    padding: 30px;
+  }
+  .container {
+  /*   display: flex; */
+    display: inline-flex;
+    border: solid 1px gray;
+  /*   flex-direction: row; // default */
+  /*   flex-direction: row-reverse; */
+  /*   flex-direction: column; */
+  /*   flex-direction: column-reverse; */
+  /*   flex-direction: row; */
+  /*   Wrapping */
+  /*   flex-wrap: wrap-reverse; */
+  /*   min-height: 60px; */
+  /*   Shorthand for row and column */
+  /*   flex-flow: column row; */
+  /*   flex-flow: row-reverse wrap; */
+  /*   flex-flow: row-reverse wrap-reverse c; */
+  /*   flex-flow: row-reverse wrap-reverse; */
+  /*   flex-stretch: space-between; // woring */
+    
+  }
+  span {
+    display: block;
+  /*   text-wrap: no-wrap; */
+  }
+  
+  
+  
+  .red {
+    background-color: red;
+    opacity: .7;
+    order: 1;
+  }
+  .green {
+    background-color: green;
+    opacity: .7;
+  }
+  .blue {
+    background-color: blue;
+    opacity: .7;
+  }
+  .orange {
+    background-color: orange;
+    opacity: .7;
+  }
+  .yellow {
+    background-color: yellow;
+    opacity: .7;
+  }
+  .pink {
+    background-color: pink;
+    opacity: .7;
+    order: -1;
+  }
+  .b3 {
+    border: solid 2px green;
+    order: 5;
+  }
